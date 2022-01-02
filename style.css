@@ -179,7 +179,6 @@ section {
 	background-position-y: 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	filter: brightness(0.25);
 }
 
@@ -283,7 +282,6 @@ p {
 	left: 0;
 	background-image: url('images/Moon_background.jpg');
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
 	background-position: 35% 50%;
 	background-position-x: 35%;
