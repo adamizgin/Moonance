@@ -175,10 +175,12 @@ section {
 	height: 100%;
 	background-image: url('images/background.jpg');
 	background-position: 50% 50%;
+	background-position-x: 50%;
+	background-position-y: 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	filter: brightness(0.175);
+	filter: brightness(0.25);
 }
 
 #information-section .center {
@@ -284,6 +286,8 @@ p {
 	background-attachment: fixed;
 	background-size: cover;
 	background-position: 35% 50%;
+	background-position-x: 35%;
+	background-position-y: 50%;
 	filter: brightness(0.35);
 	z-index: -1;
 }
