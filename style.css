@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Public+Sans:wght@600&display=swap');
+
+* {
+	margin:  0;
+	padding: 0;
+	font-family: Helvetica, Arial, Sans-Serif;
+	color: #000;
+	outline: none;
+}
+
+html, body {
+	background: #fff;
+	overflow-x: hidden;
+	width: 100vw;
+}
+
+.no-select {
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+p, li {
+	font-size: 18px;
+	margin: 0 0 10px 0;
+}
+
+h3 {
+	margin: 0 0 10px;
+}
+
+a {
+	color: #00f;
+}
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#wrapper {
+	width: 100vw;
+	overflow-x: hidden;
+	position: absolute;
+	top: 95px;
+}
+
+.product-link {
+	text-decoration: none;
+}
+
+#header {
+	width:  calc(100vw - 30px);
+	height: auto;
+	background: #604;
+	box-shadow: 0 0 10px 0 #0003;
+	position: fixed;
+	padding: 15px;
+	top: 0;
+	z-index: 4;
+}
+
+#logo {
+	height: 65px;
+	width: 65px;
+}
+
+#logo img {
+	height: 100%;
+	position: relative;
+	float: left;
+}
+
+#logo h1 {
+	font-family: 'PT Sans Caption';
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: 400;
+	color: #fff;
+	display: inline-block;
+	position: relative;
+	bottom: 50%;
+	left: 80px;
+	transform: translateY(-50%);
+}
+
+#ham {
+	position: absolute;
+	top: 50%;
+	left: 10px;
+	transform: translateY(-50%);
+	width: 35px;
+	height: 35px;
+	background: transparent;
+	border-radius: 50%;
+	transition: all 250ms ease-in-out;
+}
+#ham:active {
+	background: #fff3;
+}
+
+.hamLine {
+	width: 60%;
+	height: 2px;
+	background: #123;
+	position: absolute;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+#ham1 {
+	top: 25%;
+}
+
+#ham2 {
+	top: 50%;
+}
+
+#ham3 {
+	top: 75%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+section {
+	width: calc(100% - 60px);
+	padding: 30px;
+}
+
+#information-section {
+	height: calc(100vh - 95px);
+	width: 100vw;
+	height: 100vh;
+	padding: 0;
+}
+
+#information-background {
+	width: 100%;
+	height: 100%;
+	background-image: url('images/background.jpg');
+	background-position: 50% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	filter: brightness(0.175);
+}
+
+#information-section .center {
+	top: calc(50vh - 95px/2);
+	width: 100%;
+	text-align: center;
+}
+
+#information-section * {
+	color: #fff;
+}
+
+h2 {
+	font-size: 50px;
+	font-family: 'PT Sans Caption';
+}
+
+
+
+
+
+
+
+
+#see-products {
+	background: linear-gradient(-145deg, #ffd564, #ffe38c, #ffc204, #ffe081, #ffc612, #ffe289, #ffc309);
+	border: none;
+	padding: 15px 25px;
+	border-radius: 50px;
+	cursor: pointer;
+	margin-top: 50px;
+	box-shadow: 1px 1px 5px 0 #0005;
+	transition: all 200ms ease-in-out;
+}
+#see-products:hover {
+	box-shadow: 2px 2px 5px 0 #000a;
+	filter: brightness(1.1);
+}
+#see-products:active {
+	filter: brightness(0.85);
+}
+
+#see-products p {
+	line-height: normal;
+	margin: 0;
+	font-size: 20px;
+	color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+h4 {
+	font-size: 40px;
+	font-family: 'Public Sans';
+	font-weight: 700;
+}
+p {
+	font-family: 'Helvetica';
+	font-weight: 400;
+	font-size: 22px;
+	margin-top: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#product-section {
+	min-height: calc(100vh - 155px);
+	position: relative;
+}
+
+#product-section-background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url('images/Moon background.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: 35% 50%;
+	filter: brightness(0.35);
+	z-index: -1;
+}
+
+#product-section * {
+	color: #fff;
+}
